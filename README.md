@@ -1,4 +1,4 @@
-## practice_react_ToDoList
+# practice_react_ToDoList
 
 ### React의 실력 향상을 위한 연습용 프로젝트
 
@@ -27,4 +27,3 @@
 
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat&logo=eslint&logoColor=white)
 ![Prettier](https://img.shields.io/badge/Prettier-1A2B34?style=flat&logo=prettier&logoColor=white)
-# practice_react_ToDoList
