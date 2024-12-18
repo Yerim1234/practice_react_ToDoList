@@ -3,14 +3,14 @@ module.exports = {
   env: { browser: true, es2020: true },
   extends: [
     "eslint:recommended",
-    "plugin:import/warnings",
+    "plugin:import/recommended",
     "plugin:react/jsx-runtime",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:prettier/recommended",
     "prettier"
   ],
-  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  ignorePatterns: ['dist'],
   parser: '@typescript-eslint/parser',
   settings: {
     react: {
@@ -25,17 +25,13 @@ module.exports = {
   plugins: ["import",
   "react",
   "react-hooks",
-  "react-refresh",
-  "prettier"],
+  "react-refresh"],
   rules: {
     "react/react-in-jsx-scope": "off",
     "prettier/prettier": "error",
     "react/jsx-no-target-blank": "off",
     "no-unused-vars": "warn",
     "eqeqeq": ["error", "always"],
-    'react-refresh/only-export-components': [
-      'warn',
-      { allowConstantExport: true },
-    ],
+    "react/prop-types": "off"
   },
 }
