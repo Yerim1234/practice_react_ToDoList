@@ -32,6 +32,7 @@ module.exports = {
     "react/jsx-no-target-blank": "off",
     "no-unused-vars": "warn",
     "eqeqeq": ["error", "always"],
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+
   },
 }
